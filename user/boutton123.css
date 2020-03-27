@@ -1,0 +1,118 @@
+ 
+.btn__container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__container1 {
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.btn1234{
+    min-width: 150px;
+}
+.btn12345{
+    min-width: 190px;
+}
+.btn123 {
+    
+    background-color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #C71E7E;
+    display: flex;
+    transition: all .2s ease-in-out;
+    margin-right: 10px;
+}
+
+
+.btn123 #btn-f {
+    color: #DF3796;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.btn123 #btn-fs {
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all .1s ease-in-out;
+    opacity: 1;
+}
+
+.btn123:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ff3019 0%, #c90477 100%);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn123:hover #btn-f {
+    transform: translateX(45px);
+    padding-right: 0;
+    color: #FFF;
+}
+
+.btn123:hover #btn-fs {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.btn123:active {
+    transform: scale(1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.btn-f1{
+        min-width: 150px;
+}
+
+.btn-f2{
+        min-width: 190px;
+}
+.btn-f {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #286ED6;
+    display: flex;
+    transition: all .2s ease-in-out;
+}
+
+.btn-f #btn-f {
+    color: #286ED6;
+    font-size: 20px;
+    padding-right: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-f #btn-fs {
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+    transform: translateX(0px);
+    transition: all .1s ease-in-out;
+    opacity: 1;
+}
+
+.btn-f:hover {
+    transform: scale(1.1);
+    background-color: #286ED6;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-f:hover #btn-f {
+    transform: translateX(45px);
+    padding-right: 0;
+    color: #FFF;
+}
+
+.btn-f:hover #btn-fs {
+    transform: translateX(30px);
+    opacity: 0;
+}
+
+.btn-f:active {
+    transform: scale(1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
